@@ -31,18 +31,20 @@
 
 ---
 
-### 3. [Apex Info](https://github.com/Chera-Kang/Apex)
-> **에이펙스 레전드(Apex Legends) 게임 데이터 파이프라인 및 수치 정합성 자동 검증 토이 샌드박스**
+### 3. [Todays Coffee](https://github.com/Chera-Kang/todays-coffee)
+> **프랜차이즈 4대 브랜드 음료 영양성분 큐레이션 및 일일 카페인 트래킹 에디토리얼 웹 서비스**
 
-- **데이터 ETL 자동화**: 공식 위키의 29종 무기 수치 및 최신 밸런스 패치 데이터를 크롤링하여 정규화 JSON으로 적재
-- **수치 무결성 자동 검증 (`verify_weapons.py`)**: 헤드/바디 데미지 비율 및 연사력 기반 DPS 연산 정합성을 단정문(Assertion)으로 자동 검증
-- **초경량 웹 뷰 (`index.html`)**: 검증된 무기 데이터를 손쉽게 필터링하고 조회할 수 있는 미니 웹 도감
+- **원클릭 맞춤 큐레이션 엔진**: 4대 브랜드 24종 음료 영양성분 데이터를 기반으로 사용자 컨디션(야근 부스터, 제로슈거, 디카페인, 운동 전) 및 브랜드 교집합 필터링 제공
+- **실시간 영양성분 시각화 & 카페인 트래커**: 일일 권장량(400mg) 대비 실시간 섭취 게이지 시각화 및 400mg 초과 시 경고 배지 표기
+- **No-Backend & LocalStorage CRUD**: 별도 DB 없이 구조화된 JSON 데이터셋 연동 및 로컬스토리지를 통한 시음 메모·일일 섭취 내역 영속화
+- **모바일 퍼스트 에디토리얼 UI**: 29CM/화해 스타일의 Warm Cafe Minimalism 미학 적용, 모바일 `dvh` 바텀시트 및 Safari 줌 방지(16px) 최적화
+- 🌐 [Todays Coffee 웹 서비스 바로가기](https://todays-coffee.pages.dev/)
 
 ---
 
 ## 🛠 핵심 기술 스택
 
 - **Test Automation**: Python 3, Playwright, Pytest, Appium, Allure Report, Playwright Trace Viewer
-- **Frontend & Dashboard**: React 19, JavaScript (ES6+), HTML5/CSS3, Cloudflare Pages, GViz API
+- **Frontend & Dashboard**: React 19, JavaScript (ES6+), Tailwind CSS v4, HTML5/CSS3, Cloudflare Pages, GViz API
 - **QA Governance & Methods**: Jira 결함 라이프사이클 표준화, CTM(분류트리기법) 테스트 설계, 애자일 스크럼
 - **AI-Assisted QA**: Figma REST API 명세 파싱 및 Google Gemini API 기반 로케이터 자가치유 파이프라인
