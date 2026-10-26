@@ -1,5 +1,5 @@
 # 강기현 (Chera Kang)
-> **11년 차 시니어 QA 엔지니어 & 테스트 자동화 스페셜리스트**  
+> **Senior QA & Test Automation Engineer**  
 > 탄탄한 엔지니어링과 데이터 기반의 품질 관리로 신뢰도 높은 소프트웨어 릴리즈 환경을 구축합니다.
 
 ---
@@ -10,7 +10,7 @@
 > **B2B 제약 CSO ERP 서비스를 위한 Playwright 기반 E2E 테스트 자동화 & AI 자가치유 파이프라인**
 
 - **다중 권한 세션 물리 격리**: Pytest Fixture를 활용해 CSO, 제약사, 관리자 간 BrowserContext를 독립 분리하여 세션 간섭 및 간헐적 실패 차단
-- **OTP 자동 파싱 & API Setup**: IMAP 기반 이메일 인증번호 실시간 자동 파싱 및 관리자 API 연계 테스트 사전 조건 자동화
+- **OTP 실시간 파싱 & Admin API**: IMAP 메일함 조회 기반 실시간 OTP 자동 파싱 및 관리자 REST API 연동 자동화
 - **AI 자가치유 (Self-Healing)**: UI 변경으로 인한 에러 발생 시 AI가 에러 시점의 DOM과 화면을 분석해 대체 셀렉터로 자동 복구
 - **시연 및 산출물**:
   - 🎬 [[Web] Playwright + Pytest 16개 핵심 도메인 회귀 테스트 시연](https://youtu.be/t7XDqr4cbYw)
