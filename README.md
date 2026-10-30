@@ -9,8 +9,8 @@
 ### 1. [Parmple](https://github.com/Chera-Kang/Parmple)
 > **B2B 제약 CSO ERP 서비스를 위한 Playwright 기반 E2E 테스트 자동화 프레임워크**
 
-- **다중 권한 세션 격리**: Pytest Fixture 기반으로 CSO·제약사·관리자 독립 `BrowserContext`를 구성하여 이전 세션 잔존으로 인한 간섭 및 Flaky 방지
-- **이메일 OTP 자동 파싱 & Admin API**: IMAP4 메일함 주기적 조회를 통한 인증번호 파싱 및 관리자 REST API를 연동한 테스트 사전 데이터 자동화
+- **다중 권한 세션 격리**: Pytest Fixture 기반 CSO·제약사·관리자 독립 `BrowserContext` 구성으로 세션 간섭 및 Flaky 방지
+- **이메일 OTP 자동 파싱 & Admin API**: IMAP4 메일함 주기적 조회로 OTP 파싱 및 Admin API 기반 사전 데이터 셋업 자동화
 - **실패 관측성 및 신속한 디버깅**: Allure Report 및 실패 시점의 Playwright Trace Viewer 연계를 통한 결함 추적성 확보
 - **시연 및 산출물**:
   - 🎬 [[Web] Playwright + Pytest 16개 핵심 도메인 회귀 테스트 시연 (메인)](https://youtu.be/t7XDqr4cbYw)
@@ -24,7 +24,7 @@
 > **Jira 결함 라이프사이클 표준화 및 Zero-Cost 실시간 품질 모니터링 대시보드**
 
 - **Serverless 실시간 파이프라인**: 별도 DB/서버 없이 Google Spreadsheet와 GViz API를 연동하여 인프라 비용 0원 동기화 구현
-- **데이터 심층 분석 및 거버넌스**: 결함 재오픈율(Reopen Rate)과 우선순위별 해결 소요일수(Lead Time)를 실시간 추적하여 반복 결함 및 병목 식별
+- **데이터 심층 분석 및 거버넌스**: 결함 재오픈율(Reopen Rate)과 우선순위별 해결 소요일수(Lead Time) 추적으로 반복 결함 및 병목 식별
 - **4대 심층 분석 뷰**: 전체 개요(Main), 필터 세부 통계(DetailedStats), 역할별 기여도(MemberStats), 릴리즈 버전 분석(Roadmap)
 - **데이터 보안 마스킹**: 외부 포트폴리오 공개를 위한 민감 이슈 데이터 비식별화 및 UI 블러 처리
 - 🌐 [Jira Analytics 실시간 웹 대시보드 바로가기](https://jira-analytics.pages.dev)
