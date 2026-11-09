@@ -39,7 +39,9 @@
 - **실패 시점 Trace 자동 수집 & 디버깅**: 테스트 실패(FAILED) 시점에만 Playwright Trace(`.zip`)를 자동 저장하여 결함 추적 시간 단축 및 Allure Report 연동
 - **핵심 시나리오 및 엣지 케이스 검증**: BVA 경계값 분석(카페인 400mg 초과 경고 UI 전이), 메모 CRUD 입력값 예외 방어 및 새로고침 유지, 시간 제어(자정 00:00 로컬스토리지 초기화) 및 해시 라우팅 검증
 - **No-Backend 웹 아키텍처**: React 19 + Tailwind CSS 기반 순수 클라이언트 웹 애플리케이션 (8대 브랜드 45종 음료 및 12종 원두 JSON 데이터 연동)
-- 🌐 [Todays Coffee 웹 서비스 바로가기](https://todays-coffee.pages.dev/)
+- **시연 및 서비스 바로가기**:
+  - 🎬 **[Playwright] E2E Regression Test 시연 (오늘의 커피 | with Allure & Trace Viewer)**: [▶️ YouTube 바로보기](https://youtu.be/kdgQ6l0w_JI)
+  - 🌐 [Todays Coffee 웹 서비스 바로가기](https://todays-coffee.pages.dev/)
 
 ---
 
