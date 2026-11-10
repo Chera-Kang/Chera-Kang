@@ -13,8 +13,8 @@
 - **이메일 OTP 자동 파싱 & Admin API**: IMAP4 메일함 주기적 조회로 OTP 파싱 및 Admin API 기반 사전 데이터 셋업 자동화
 - **실패 관측성 및 신속한 디버깅**: Allure Report 및 실패 시점의 Playwright Trace Viewer 연계를 통한 결함 추적성 확보
 - **시연 영상**:
-  - 🎬 [[Web] Playwright + Pytest 16개 핵심 도메인 회귀 테스트 시연 (메인)](https://youtu.be/t7XDqr4cbYw)
-  - 🎬 [[App] Android 하이브리드 앱 Appium 스모크 테스트 시연 (메인)](https://youtu.be/AGG6c-pH-6g)
+  - 🎬 [[Web] Playwright + Pytest 16개 핵심 도메인 회귀 테스트 시연](https://youtu.be/t7XDqr4cbYw)
+  - 🎬 [[App] Android 하이브리드 앱 Appium 스모크 테스트 시연](https://youtu.be/AGG6c-pH-6g)
 
 ---
 
