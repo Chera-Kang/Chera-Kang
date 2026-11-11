@@ -30,13 +30,13 @@
 ---
 
 ### 3. [Todays Coffee](https://github.com/Chera-Kang/todays-coffee)
-> **커피 큐레이션 웹 서비스 & Playwright E2E 테스트베드 (17 TCs)**
+> **커피 큐레이션 웹 서비스(React 19) & Playwright E2E 테스트베드 (17 TCs)**
 
-- **E2E 회귀 테스트 스위트 (17 TCs)**: Python Playwright + Pytest 기반으로 클라이언트 주요 상태와 엣지 케이스를 검증하는 8대 테스트 스위트 구축
+- **E2E 회귀 테스트 스위트 (17 TCs)**: Python Playwright + Pytest 기반 8개 테스트 스위트를 구축해 No-Backend 웹 앱(8개 브랜드 45종 음료·12종 원두)의 클라이언트 상태와 엣지 케이스 검증
+- **Page Object Model (POM) 아키텍처**: 공통 `BasePage` 상속 기반 페이지 분리 및 모달 객체(`DrinkDetailModal`, `TrackerModal`) 캡슐화로 로케이터 중복 제거 및 비동기 모달 닫힘 대기 처리
 - **BrowserContext 세션 격리**: Pytest Fixture(`scope="function"`) 기반 독립 세션 구성으로 LocalStorage 데이터 간섭 및 Flaky 방지
 - **실패 시점 Trace 자동 수집 & 디버깅**: 테스트 실패(FAILED) 시점에만 Playwright Trace(`.zip`)를 자동 저장하여 결함 추적 시간 단축 및 Allure Report 연동
 - **핵심 시나리오 및 엣지 케이스 검증**: BVA 경계값 분석(카페인 400mg 초과 경고 UI 전이), 메모 CRUD 입력값 예외 방어 및 새로고침 유지, 시간 제어(자정 00:00 로컬스토리지 초기화) 및 해시 라우팅 검증
-- **No-Backend 웹 아키텍처**: React 19 + Tailwind CSS 기반 순수 클라이언트 웹 애플리케이션 (8대 브랜드 45종 음료 및 12종 원두 JSON 데이터 연동)
 - **시연 및 산출물 바로가기**:
   - 🎬 [[VOD] Playwright E2E 회귀 테스트 시연 영상 (Allure & Trace Viewer)](https://youtu.be/kdgQ6l0w_JI)
   - 📁 [Allure Report 및 Playwright Trace 결과 산출물 (Google Drive)](https://drive.google.com/drive/folders/1PykjxS6gSBaLlbLu98dLLxI5iT5WbGNU)
